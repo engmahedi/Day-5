@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header section Start*/
+header{
+  background-color: rgb(11, 11, 68);
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+  /* Logo Start */
+header .logo{
+  width: 20%;
+}
+
+img{
+  width: 200px;
+}
+
+/* Logo End */
+
+/* Menu Start */
+
+header .navbar{
+  width: 79%;
+  text-align: center;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  margin-right: 10px;
+}
+/* Menu End */
+
+/* Header section End*/
+
+/* Banner section Start  */
+
+#banner{
+  background-color: beige;
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+}
+
+/* Banner Text Start */
+.banner-text{
+  width: 40%;
+  padding: 0 200px;
+}
+.banner-text h2{
+  font-size: 70px;
+}
+.banner-text h4{
+  font-size: 40px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+.social-icon i{
+  font-size: 50px;
+  
+}
+.banner-text button{
+  width: 300px;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  background: linear-gradient(45deg, rgb(35, 35, 251), rgb(240, 49, 230));
+  color: #fff;
+  margin-top: 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+/* Banner Text End */
+/* Banner Image Start */
+.banner-image{
+  width: 60%;
+}
+
+.banner-image img{
+  width: 100%;
+}
+/* Banner Image End */
+
+/* Banner section End  */
+
+#counter{
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+}
+
+#counter h3{
+  text-align: center;
+  font-size: 30px;
+}
+
+#counter .singlecounter{
+  text-align: center;
+  width: 25%;
+  background-color: rgb(211, 245, 233);
+  padding: 50px;
+}
+#counter .singlecounter h2{
+  font-size: 50px;
+  margin-bottom: 10px;
+  background: linear-gradient(45deg, rgb(35, 35, 251), rgb(240, 49, 230));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#counter .singlecounter h5{
+  font-size: 20px;
+}
+.counterbox{
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
