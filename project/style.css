@@ -70,7 +70,7 @@ header a{
   font-size: 50px;
   
 }
-.banner-text button{
+.commone-btn{
   width: 300px;
   padding: 20px;
   font-size: 30px;
@@ -81,6 +81,7 @@ header a{
   border: none;
   border-radius: 40px;
   cursor: pointer;
+  letter-spacing: 4px;
 }
 
 /* Banner Text End */
@@ -95,6 +96,9 @@ header a{
 /* Banner Image End */
 
 /* Banner section End  */
+
+/*  Counter Section Start  */
+
 
 #counter{
   width: 80%;
@@ -129,9 +133,114 @@ header a{
   margin-top: 30px;
 }
 
+/*  Counter Section End  */
+
+/*  AboutUs Section Start  */
 
 
+.about-us{
+  width: 80%;
+  padding: 50px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
 
+.about-img{
+  width: 48%;
+  
+}
+.about-img img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.about-text{
+  width: 48%;
+  padding: 30px;
+}
+.about-text h3{
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.about-text hr{
+  width: 12%;
+  margin: 10px 0;
+}
+.about-text h2{
+  font-size: 40px;
+}
+
+.about-text p{
+  font-size: 20px;
+  padding: 10px 0;
+  color: #868585;
+}
+
+/*  AboutUs Section End  */
+
+/* Course Section Start */
+#courses{
+  width: 80%;
+  margin: 50px auto;
+  
+  padding: 10px;
+}
+.course-title{
+  text-align: center;
+}
+.course-title h3{
+  letter-spacing: 5px;
+  font-size: 20px;
+  color: #5e5e5e;
+}
+.course-title p{
+  font-size: 30px;
+  font-weight: 500;
+}
+.course-title p span{
+  background: linear-gradient(45deg, rgb(35, 35, 251), rgb(240, 49, 230));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.course-container{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.single-course{
+  width: 31%;
+  text-align: center;
+  padding: 50px;
+  box-shadow: 5px 0px 10px #ddd;
+  border-radius: 5px 30px ;
+  transition: .5s;
+}
+.single-course img{
+  width: 100px;
+}
+.single-course:hover{
+  
+  background-color: rgb(168, 249, 222);
+ 
+}
+.single-course h2{
+  margin: 10px 0;
+}
+.single-course p{
+  margin: 10px 0;
+  font-size: 18px;
+  color: #5e5e5e;
+}
+.orderbtn{
+  font-size: 20px;
+  width: 200px;
+}
+
+/* Course Section End */
 
 
 
