@@ -194,6 +194,7 @@ header a{
   letter-spacing: 5px;
   font-size: 20px;
   color: #5e5e5e;
+  margin-bottom: 10px;
 }
 .course-title p{
   font-size: 30px;
@@ -241,6 +242,54 @@ header a{
 }
 
 /* Course Section End */
+
+/* Client Section Start */
+
+
+#our-client{
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+  /* background-color: #dfdede; */
+  background-color: rgb(211, 245, 233);
+}
+
+
+
+.client-title{
+  text-align: center;
+}
+.client-title h3{
+  letter-spacing: 5px;
+  font-size: 20px;
+  color: #5e5e5e;
+  margin-bottom: 10px;
+}
+.client-title p{
+  font-size: 30px;
+  font-weight: 500;
+}
+.client-title p span{
+  background: linear-gradient(45deg, rgb(35, 35, 251), rgb(240, 49, 230));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.client-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+  padding: 20px;
+}
+
+/* Client Section End */
+
+
+
+
+
+
 
 
 
